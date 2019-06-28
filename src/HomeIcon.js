@@ -8,7 +8,7 @@ class HomeIcon extends Component{
 		<HashRouter>
 			<NavLink to="/">
 				<img src={logo} id="home-logo" alt="Logo" />
-				<h1 id="sunburst-title">Sunburst Seas</h1>
+				<h1 id="sunburst-title">Sunburst Sea</h1>
 			</NavLink>
 		</HashRouter>
 		);

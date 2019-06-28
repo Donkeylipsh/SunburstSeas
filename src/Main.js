@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Home from "./Home";
 import Browse from "./Browse";
 import Details from "./Details";
+import Cart from "./Cart";
 
 class Main extends Component{
 	render(){
@@ -33,6 +34,8 @@ class Main extends Component{
 						<Browse {...routeProps} page="Soft Coral" />
 					)} />
 					<Route path="/details" component={Details}/>
+					<Route path="/cart" render={(routeProps) => (
+						<Cart {...routeProps} item="My Cart Item" amount="$250.00"/>
 					)} />
 				</div>
 				<Footer />

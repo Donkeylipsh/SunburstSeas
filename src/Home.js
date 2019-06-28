@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import FeaturedContent from "./FeaturedContent";
-import MissionStatement from "./MissionStatement";
+import FreshCorals from "./FreshCorals"
 
 class Home extends Component{
 	render(){
 		return(
-			<div className="page-container">
-				<FeaturedContent />
-				<MissionStatement />
+			<div>
+				<div id="title-banner"></div>
+				<FreshCorals />
 			</div>
 		);
 	}
